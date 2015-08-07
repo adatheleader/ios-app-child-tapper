@@ -13,6 +13,8 @@
 		359443ED1B73A7E3007494B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359443EC1B73A7E3007494B5 /* Images.xcassets */; };
 		359443F01B73A7E3007494B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359443EE1B73A7E3007494B5 /* LaunchScreen.xib */; };
 		359443FC1B73A7E3007494B5 /* Child_TapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359443FB1B73A7E3007494B5 /* Child_TapperTests.swift */; };
+		359444061B73A842007494B5 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359444051B73A842007494B5 /* ColorWheel.swift */; };
+		359444081B73A86B007494B5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359444071B73A86B007494B5 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		359443F51B73A7E3007494B5 /* Child TapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child TapperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359443FA1B73A7E3007494B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		359443FB1B73A7E3007494B5 /* Child_TapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child_TapperTests.swift; sourceTree = "<group>"; };
+		359444051B73A842007494B5 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorWheel.swift; path = ../ColorWheel.swift; sourceTree = "<group>"; };
+		359444071B73A86B007494B5 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = ../Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		359443E21B73A7E3007494B5 /* Child Tapper */ = {
 			isa = PBXGroup;
 			children = (
+				359444051B73A842007494B5 /* ColorWheel.swift */,
+				359444071B73A86B007494B5 /* Book.swift */,
 				359443E51B73A7E3007494B5 /* AppDelegate.swift */,
 				359443E71B73A7E3007494B5 /* ViewController.swift */,
 				359443E91B73A7E3007494B5 /* Main.storyboard */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359444081B73A86B007494B5 /* Book.swift in Sources */,
 				359443E81B73A7E3007494B5 /* ViewController.swift in Sources */,
 				359443E61B73A7E3007494B5 /* AppDelegate.swift in Sources */,
+				359444061B73A842007494B5 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				359444011B73A7E3007494B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		359444021B73A7E3007494B5 /* Build configuration list for PBXNativeTarget "Child TapperTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				359444041B73A7E3007494B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
